@@ -1,0 +1,32 @@
+2012-11-17 21:53:25,144 [Aspire][Thread:6][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status() in D:\Programming\Curt\Community\Library\Common\Globals.cs:line 563
+   at DotNetNuke.Common.Initialize.CheckVersion(HttpApplication app) in D:\Programming\Curt\Community\Library\Common\Initialize.cs:line 116
+   at DotNetNuke.Common.Initialize.InitializeApp(HttpApplication app) in D:\Programming\Curt\Community\Library\Common\Initialize.cs:line 181
+   at DotNetNuke.Common.Initialize.Init(HttpApplication app) in D:\Programming\Curt\Community\Library\Common\Initialize.cs:line 275
+   at DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication.Application_BeginRequest(Object sender, EventArgs e) in D:\Programming\Curt\Community\DotNetNuke.Web\Common\DotNetNukeHttpApplication.cs:line 161
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-11-17 21:55:55,364 [Aspire][Thread:8][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status() in D:\Programming\Curt\Community\Library\Common\Globals.cs:line 563
+   at DotNetNuke.Common.Initialize.CheckVersion(HttpApplication app) in D:\Programming\Curt\Community\Library\Common\Initialize.cs:line 116
+   at DotNetNuke.Common.Initialize.InitializeApp(HttpApplication app) in D:\Programming\Curt\Community\Library\Common\Initialize.cs:line 181
+   at DotNetNuke.Common.Initialize.Init(HttpApplication app) in D:\Programming\Curt\Community\Library\Common\Initialize.cs:line 275
+   at DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication.Application_BeginRequest(Object sender, EventArgs e) in D:\Programming\Curt\Community\DotNetNuke.Web\Common\DotNetNukeHttpApplication.cs:line 161
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-11-17 22:00:50,861 [Aspire][Thread:11][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status() in D:\Programming\Curt\Community\Library\Common\Globals.cs:line 563
+   at DotNetNuke.Common.Initialize.CheckVersion(HttpApplication app) in D:\Programming\Curt\Community\Library\Common\Initialize.cs:line 116
+   at DotNetNuke.Common.Initialize.InitializeApp(HttpApplication app) in D:\Programming\Curt\Community\Library\Common\Initialize.cs:line 181
+   at DotNetNuke.Common.Initialize.Init(HttpApplication app) in D:\Programming\Curt\Community\Library\Common\Initialize.cs:line 275
+   at DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication.Application_BeginRequest(Object sender, EventArgs e) in D:\Programming\Curt\Community\DotNetNuke.Web\Common\DotNetNukeHttpApplication.cs:line 161
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-11-17 22:01:15,640 [Aspire][Thread:8][ERROR] DotNetNuke.Common.Initialize - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status() in D:\Programming\Curt\Community\Library\Common\Globals.cs:line 563
+   at DotNetNuke.Services.Log.EventLog.LogController.AddLog(LogInfo logInfo) in D:\Programming\Curt\Community\Library\Services\Log\EventLog\LogController.cs:line 176
+   at DotNetNuke.Common.Initialize.LogEnd() in D:\Programming\Curt\Community\Library\Common\Initialize.cs:line 373
+2012-11-17 22:01:15,668 [Aspire][Thread:8][ERROR] DotNetNuke.Services.Exceptions.BasePortalException - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Exceptions.BasePortalException.InitializePrivateVariables() in D:\Programming\Curt\Community\Library\Services\Exceptions\BasePortalException.cs:line 200
